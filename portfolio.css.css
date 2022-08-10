@@ -103,11 +103,21 @@ body {
        margin-left: 350px;
        font-size: 20px;
        line-height: 30px;
-       padding-bottom: 200px;
+       padding-bottom: 220px;
    }
    .intro{
         color: white;
         text-align: center;
+   }
+   .designer_frontend_mentor{
+    display: flex;
+    margin-top: -10.5em;
+    margin-left: 7em;
+    margin-right: 7em;
+    line-height: 1.5;
+   }
+   #frontends-headings{
+    color:#6E07F3 !important;
    }
    .designer img{
        width: auto;
@@ -115,13 +125,17 @@ body {
        height: 70px;
    }
    .designer{
-       position: absolute;
-       top: 200%;
+       top: 150%;
        background-color: white;
-       border-radius: 50px;
+       border-radius: 10px 0 0 10px ;
        text-align: center;
-       border: solid 2px black;    
+       border: solid 1px grey;
+       border-left: none;    
+       border-right: none;
        padding: 1em;
+       position: relative;
+       font-family: "europa", sans-serif;
+       color: #141c3a;
    }
    .designer ul{
        padding: 0%;
@@ -129,4 +143,34 @@ body {
    ul{
        list-style: none;
    }
-   
+   .Frontend img{
+    width: auto;
+    padding-top: 1em;
+    height: 70px;
+   }
+   .Frontend{
+    top: 150%;
+       background-color: white;
+       text-align: center;
+       border: solid 1px grey;    
+       padding: 1em;
+       position: relative;
+       font-family: "europa", sans-serif;
+       color: #141c3a;
+   }
+   .books img{
+    width: auto;
+    padding-top: 1em;
+    height: 70px;
+   }
+  .books{
+    top: 150%;
+    background-color: white;
+    border-radius:0 10px 10px 0 ;
+    text-align: center;
+    border: solid 1px grey;
+    padding-top: 1em;
+    position: relative;
+    font-family: "europa", sans-serif;
+    color: #141c3a;
+  }
